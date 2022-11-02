@@ -1,0 +1,90 @@
+<div class="stp_container row">
+  <div class="stp_arrowMain col s12">
+
+    <div class=" stp_arrContOne col s2 ">
+      <div class="col s12 truncate stp_padZero">
+        <div class="stp_arrowTitle col l8 s6 m8 stp_padZero" [ngStyle]="{'font-weight':load1 > 0 ? '500' : '' }"
+          title="Input Acceptance">Input Acceptance </div>
+        <div class="col l4 s6 m4 stp_padZero " [ngStyle]="{'font-weight':load1 > 0 ? '500' : '' }">
+          <div class="right-align truncate" [ngStyle]="{'color':load1 > 0 ? 'black' : '#ababab' }">{{ load1}}<span
+              *ngIf="load1 > 0">{{percentage }}</span></div>
+        </div>
+      </div>
+      <div class="stp_arrowPad">
+        <div class="stp_arrowBar">
+          <div class="stp_arrowLoad" [ngClass]="{'stp_fullLoad stp_cls': load1 == 100 }" *ngIf="load1 > 0"
+            [style.width.%]="load1"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" stp_arrContOne col s2 ">
+      <div class="col s12 truncate stp_padZero">
+        <div class="stp_arrowTitle col l8 s6 m8 stp_padZero" [ngStyle]="{'font-weight':load2 > 0 ? '500' : '' }"
+          title="Processing Pay Run">Processing Pay Run</div>
+        <div class="col l4 s6 m4 stp_padZero " [ngStyle]="{'font-weight':load2 > 0 ? '500' : '' }">
+          <div class="right-align truncate" [ngStyle]="{'color':load2 > 0 ? 'black' : '#ababab' }">{{ load2}}<span
+              *ngIf="load2 > 0">{{percentage }}</span></div>
+        </div>
+      </div>
+      <div class="stp_arrowPad">
+        <div class="stp_arrowBar">
+          <div class="stp_arrowLoad" [ngClass]="{'stp_fullLoad stp_cls': load2 == 100 }" *ngIf="load2 > 0"
+            [style.width.%]="load2"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" stp_arrContOne col s2 ">
+      <div class="col s12 truncate stp_padZero">
+        <div class="stp_arrowTitle col l8 s6 m8 stp_padZero" [ngStyle]="{'font-weight':load3 > 0 ? '500' : '' }"
+          title="Outout Generation">Output Generation</div>
+        <div class="col l4 s6 m4 stp_padZero " [ngStyle]="{'font-weight':load3 > 0 ? '500' : '' }">
+          <div class="right-align truncate" [ngStyle]="{'color':load3 > 0 ? 'black' : '#ababab' }">{{ load3}}<span
+              *ngIf="load3 > 0">{{percentage }}</span></div>
+        </div>
+      </div>
+      <div class="stp_arrowPad">
+        <div class="stp_arrowBar">
+          <div class="stp_arrowLoad" [ngClass]="{'stp_fullLoad stp_cls': load3 == 100 }" *ngIf="load3 > 0"
+            [style.width.%]="load3"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" stp_arrContOne col s2 ">
+      <div class="col s12 truncate stp_padZero">
+        <div class="stp_arrowTitle col l8 s6 m8 stp_padZero" [ngStyle]="{'font-weight':load4 > 0 ? '500' : '' }"
+          title="Month End Reporting">Month End Reporting</div>
+        <div class="col l4 s6 m4 stp_padZero " [ngStyle]="{'font-weight':load4 > 0 ? '500' : '' }">
+          <div class="right-align truncate" [ngStyle]="{'color':load4 > 0 ? 'black' : '#ababab' }">{{ load4}}<span
+              *ngIf="load4 > 0">{{percentage }}</span></div>
+        </div>
+      </div>
+      <div class="stp_arrowPad">
+        <div class="stp_arrowBar">
+          <div class="stp_arrowLoad" [ngClass]="{'stp_fullLoad stp_cls': load4 == 100 }" *ngIf="load4 > 0"
+            [style.width.%]="load4"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" stp_arrContOne col s2 ">
+      <div class="col s12 truncate stp_padZero">
+        <div class="stp_arrowTitle col l8 s6 m8 stp_padZero" [ngStyle]="{'font-weight':load5 > 0 ? '500' : '' }"
+          title="Monthly Closing">Monthly Closing</div>
+        <div class="col l4 s6 m4 stp_padZero " [ngStyle]="{'font-weight':load5 > 0 ? '500' : '' }">
+          <div class="right-align truncate" [ngStyle]="{'color':load5 > 0 ? 'black' : '#ababab' }">{{ load5}}<span
+              *ngIf="load5 > 0">{{percentage }}</span></div>
+        </div>
+      </div>
+      <div class="stp_arrowPad">
+        <div class="stp_arrowBar">
+          <div class="stp_arrowLoad" [ngClass]="{'stp_fullLoad stp_cls': load5 == 100 }" *ngIf="load5 > 0"
+            [style.width.%]="load5"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

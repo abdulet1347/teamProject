@@ -1,0 +1,79 @@
+/*************************** Progress Load css  start *******************************************/
+* {
+    font-size: 11px;
+}
+
+.stp_container {
+    padding: 20px;
+    background-color: #f3f3f4;
+    width: auto;
+}
+
+
+.stp_arrContOne {
+    width: 19.666667% !important;
+
+}
+
+
+.stp_arrowPad {
+    padding-top: 25px !important;
+}
+
+.stp_arrowBar {
+    background-color: #fff;
+    height: 11px;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.stp_arrowLoad {
+    height: 11px;
+    width: 100%;
+    border: #ffc000 solid 1px;
+    position: absolute;
+    z-index: 20;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background: repeating-linear-gradient(45deg,
+            #ffc000,
+            #ffc000 5px,
+            #ffcd33 1px,
+            #ffcd33 9px);
+}
+
+.stp_fullLoad {
+
+    border: #09b47b solid 1px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background: repeating-linear-gradient(45deg,
+            #09b47b,
+            #09b47b 5px,
+            #3ac395 1px,
+            #3ac395 9px);
+}
+
+
+.stp_arrowTitle {
+    font-size: 11px;
+    color: black;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+
+.stp_spanPercentage {
+    margin-left: -3px;
+}
+
+.stp_padZero {
+    padding: 0px;
+}
+
+
+/*************************** Progress Load css End *******************************************/
